@@ -20,7 +20,9 @@
   "homepage": "https://github.com/YazanAlaiwah/notes#readme",
   "dependencies": {
     "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
     "minimist": "^1.2.5",
+    "mongoose": "^5.9.15",
     "uuid": "^8.0.0"
   },
   "devDependencies": {
