@@ -1,48 +1,31 @@
 # notes
 
-## Class-01
+## Class-04
 
-#### feature requirements
-1. allow the user to add notes using command line
-2. response with error if there is one or response with the notes to confirem that its add it 
+### NOTES
 
-### PR
+#### Links 
 
-`https://github.com/YazanAlaiwah-401-advanced-javascript/notes/pull/1`
+[PR](https://github.com/YazanAlaiwah-401-advanced-javascript/notes/pull/4)
+#### Modules
+*`input.js`*
+*`notes.js`*
 
-#### UML
+#### Setup
 
-![class01](./assets/class-01.png)
+the program used in commad line all commads aftter *node index.js*
+if you need help type `--help` or `-h`
+to add note type `--add` or `-a` and the note 
+to have the note in a new catogery type `--category` or `-c` and the category (by defulte its general)
+to see all the note type `--list` or `-l` 
+> to see one category type aftter it the name of it
+to updata the note type `--updata` or `-u` and the id of the note aftter it the updata it note
+> node index.js -u <id> <new note>
+to delete the note type `--delete` or `-d` and the id of the note
+#### Tests
 
-## Class-02
-
-### Project: Notes
-
-### PR 
-`https://github.com/YazanAlaiwah-401-advanced-javascript/notes/pull/2`
-
-#### feature requirements
-1. add test for our project
-2. refactor the project to ECMA 6 class
-
-### PR
-
-
-
-#### UML
-
-![class02](./assets/class-02.png)
-
-## Class-03
-
-### Project: Notes
-
-### PR 
-`https://github.com/YazanAlaiwah-401-advanced-javascript/notes/pull/3`
-
-#### feature requirements
-1. add the notes to the database
-2. using CRUD to the database
+Lint test: npm run lint
+unit test: npm test
 
 #### UML
 
