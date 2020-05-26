@@ -12,6 +12,6 @@ mongoose.connect(process.env.MONGODB_URI, {
 
 let input = new Input();
 let notes = new Notes();
-notes.execute(input)
-.then(mongoose.disconnect)
+notes.execute(input.vaild())
+  .then(mongoose.disconnect);
 
